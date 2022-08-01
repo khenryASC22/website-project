@@ -1,0 +1,49 @@
+div {
+    display: block;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+#about_text {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    text-align: justify;
+}
+.box {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.box p {
+    width: 400px;
+    font-size: 15px;
+    text-align: justify;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.my_info {
+    display: flex;
+    justify-content: space-around;
+}
+#all_div {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.nav_item {
+    font-family: Helvetica;
+    background-color: #31353900;
+    color: white;
+    font-size: 32px;;
+    padding: 5px;
+}
+#nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #31353985;
+}
